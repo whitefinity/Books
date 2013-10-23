@@ -1,0 +1,408 @@
+	@font-face {
+	font-family:"Fontleroy Brown NF";
+	src:url("font/FontleroyBrownNF.eot?") format("eot"),
+	url("font/FontleroyBrownNF.woff") format("woff"),url("font/FontleroyBrownNF.ttf") format("truetype"),
+	url("font/FontleroyBrownNF.svg#FontleroyBrownNF") format("svg");
+	font-weight:normal;font-style:normal;
+	}
+	@font-face{
+	font-family: OstrichBold;
+	src: url('./font/Ostrich Bold.ttf');}
+	@font-face{
+	font-family: ScienceFair;
+	src: url('./font/Science Fair.otf');}
+	@font-face{
+	font-family: antique_book_cover;
+	src: url('./font/antique_book_cover.otf');}
+
+	body {
+		background: url(img/bkg.png);
+		padding: 0;
+		margin: 0px;
+	}
+	.left {
+	 float: left;
+	}
+	.right {
+	 float: right;
+	}
+	.wrap {
+		width: 970px;
+		background: #ECE2BC;
+		border: 5px solid #687E5A;
+		margin: 0 auto;
+		position: relative;
+		min-height: 1150px;
+		top:-5px;
+	}
+	.navi {
+		position: absolute;
+		width: 1066px;
+		height: 65px;
+		background: url(img/navi.png) no-repeat;
+		top: 76px;
+		left: -47px;
+	}
+	.navi-item {
+		margin-left: 35px;
+		height: 65px;
+		line-height: 65px;
+		
+	}
+	.left a{
+		z-index:2;
+	}
+	.navi-item:first-child {
+	 margin-left: 65px;
+	}
+
+	.navi-item2 {
+		margin-right: 60px;
+		height: 65px;
+		line-height: 65px;		
+	}
+	.filter a{
+		top:90px;
+		left:650px;
+		font-family:"Fontleroy Brown NF";
+			font-size: 2.2em;
+			text-decoration: none;
+			color: #FFF;
+			position:relative;
+	}
+	.filter{
+		width:0px;
+		height: 0px;
+	}
+	.navi-item a, .navi-item2 a {
+			font-family:"Fontleroy Brown NF";
+			font-size: 2.2em;
+			text-decoration: none;
+			color: #FFF;
+			position:relative;
+	}
+	.logo {
+	  width: 1066px;
+	  height: 192px;
+	  position: absolute;
+	  top: -67px;
+	  background: url(img/logo.png) no-repeat top center;
+	}
+	.empty {
+	 height: 200px;
+	}
+
+#search{
+width: 244px;
+position: relative;
+top: -140px;
+left: 775px;
+}
+#search input[type="submit"],.com input[type="submit"], .reg input[type="submit"]{
+	background:transparent;
+	border: none;
+	color: #677f4f;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.2em;
+	cursor: pointer;
+}
+.com input[type="submit"]{
+	margin-left:100px;
+}
+#search input[type="submit"]:hover {
+	color:#EFCC61;
+}
+
+#ba{
+	width:540px;
+	height:90px;
+top: 220px;
+left: 220px;
+position: relative;
+}
+
+/*---------TABLE INDEX.PHP--------------*/
+table{
+	position:relative;
+	margin-left: 85px;
+	margin-top:100px;
+	border-collapse:collapse;
+	top:160px;
+	width: 800px;
+	border:2px solid #91c959;
+	background:#eddca5;
+}
+.trcolor{
+background: #efcc61;
+}
+
+table tbody tr{
+border:2px solid white;	
+}	
+.title a, .cnt,.titletd{
+font-size: 2.2em;
+color: #57503b;
+font-family:"Fontleroy Brown NF";
+text-decoration:none;
+margin-left:10px;
+tbody tr .title{
+	width: 200px;
+}
+}
+.titletd{
+text-align: center;
+}
+.name a{
+	width: 100px;
+font-size: 1.2em;
+color: #677f4f;
+text-decoration: none;
+font-family:ScienceFair;
+}
+.name{
+	width:320px;
+}
+.pages{
+	margin-left:380px;
+}
+.pages a{
+	padding:3px;
+	color: #677f4f;
+text-decoration: none;
+font-family:ScienceFair;
+}
+.cnt{
+	font-size: 1.6em;
+}
+#tablena{
+position: relative;
+left:220px;
+top: 160px;
+width: 385px;
+border: 2px solid #FFF;
+}
+#author_td{
+	color: #57503B;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.5em;
+	text-align:center;
+}
+/*-------------END TABLE-------------*/
+#newb, #newa{
+	position: relative;
+	top: 220px;
+	left: 200px;
+}
+#newa input[type="submit"]{
+	background:transparent;
+	border: 1px solid #677f4f;
+	color: #677f4f;
+	border-radius:5px;
+	color: #677f4f;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.5em;
+	font-weight:bold;
+	cursor: pointer;
+}
+#newb input[type="text"],#newa input[type="text"]{
+	background:#EFCC61;
+	color: #57503b;
+	width:190px;
+	height:30px;
+	border:none;
+	border: 2px solid #FFF;
+}
+#newa input[type="text"]{
+	margin-top:20px;
+	margin-left:140px;
+}
+label[for="username"],label[for="password"],label[for="book"],label[for="authors"]{
+			color:#677d59;
+			font-family:"Fontleroy Brown NF";
+			font-size: 2.2em;
+			margin-left: 115px;
+		}
+		label[for="authors"],label[for="comment"]{
+		margin-right:50px;
+		position: relative;
+		}
+		label[for="comment"]{
+			color:#677d59;
+			font-family:"Fontleroy Brown NF";
+			font-size: 2.2em;
+		}
+		#newb select{
+			margin-top:20px;
+			margin-left:120px;
+	width:300px;
+	height:200px;
+	background:#EFCC61;
+	color: #57503b;
+	font-family: ScienceFair;
+	font-size: 1.6em;
+	border: 2px solid #FFF;
+}
+#newb input[type="submit"]{
+top: 50px;
+left:-90px;
+position: relative;
+background:transparent;
+	border: 1px solid #677f4f;
+	color: #677f4f;
+	border-radius:5px;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.5em;
+	font-weight:bold;
+	cursor: pointer;
+}
+.authors{
+top: 10px;
+left: 116px;
+position: relative;
+font-family:"Fontleroy Brown NF";
+font-size: 2.2em;
+color: #677f4f;
+}
+.success{
+	position:relative;
+	top:190px;
+	left:315px;
+	color:green;
+	font-size:2.2em;
+}
+.errorspan{
+	position:relative;
+	top:200px;
+	left:270px;
+	color:red;
+	font-size:2.2em;
+}
+
+/*---------REGISTRATION--------------*/
+.reg{
+	top: 350px;
+position: absolute;
+left: 340px;
+}
+#newa input[type="submit"]:hover,#newb input[type="submit"]:hover,.com input[type="submit"]:hover,.reg input[type="submit"]:hover{
+	color:#EFCC61;
+	border: 1px solid #EFCC61;
+}
+#search input[type="submit"]:hover {
+	color:#EFCC61;
+}
+.reg input[type="password"]{
+	margin-left:12px;
+}
+.reg input[type="submit"]{
+	border: 1px solid #677f4f;
+	color: #677f4f;
+	border-radius:5px;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.5em;
+	font-weight:bold;
+	cursor: pointer;
+	margin-left:280px;
+}
+.sign{
+		position: relative;
+		top: 320px;
+		left: 480px;
+		text-decoration:none;
+		color:#e56b51;
+		font-family:"Fontleroy Brown NF";
+			font-size: 2.2em;
+			
+}
+/*-------------COMMENTS-----------------*/
+.com{
+	position:relative;
+	top: 50px;
+left: 200px;
+width: 800px;
+}
+
+		.foo{
+			color:red;
+		}
+
+.comfont{
+	color: #304818;
+    font-family: 'times new roman';
+    font-size: 1.4em;
+    padding-left:10px;
+}
+
+
+
+.com input[type="submit"]{
+	border:1px solid #677f4f;
+	margin-left: 220px;
+}
+.comt{
+	position:relative !important;
+	top:130px;
+}
+.comt2{
+	position:relative;
+	top:35px;
+	
+}
+textarea{
+	width:300px;
+	height:100px;
+}
+/*
+#search{
+border:2px solid #677f4f;
+width:244px;
+position: relative;
+top: 15px;
+left: 840px;
+z-index: 3;
+}
+#search input[type="submit"],.com input[type="submit"], .reg input[type="submit"]{
+	background:transparent;
+	border: none;
+	color: #677f4f;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.2em;
+	cursor: pointer;
+}
+
+#search input[type="text"]{
+border-radius: 15px;
+background: #FFFFF0;
+border: none;}
+Registration 
+
+.error{
+	position:absolute;
+	top:260px;
+	left:260px !important;
+	color:red;
+	font-size:2.2em;
+}
+
+
+.comment{
+	position:absolute;
+	top:150px;
+	height:0px;
+	width:0px;
+}
+
+
+.comt2 .trcolor{
+	color:#57503B;
+	font-size:1.2em;
+}
+.com textarea{
+	width:350px;
+	height:100px;
+}
+
+li {
+	color: #F00;
+}
+*/

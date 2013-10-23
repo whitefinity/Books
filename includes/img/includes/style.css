@@ -1,0 +1,355 @@
+body{
+		top:-20px;
+		width:1200px;
+		margin-left:4%;
+	}
+	@font-face {font-family:"Fontleroy Brown NF";src:url("./font/FontleroyBrownNF.eot?") format("eot"),
+	url("./font/FontleroyBrownNF.woff") format("woff"),url("./font/FontleroyBrownNF.ttf") format("truetype"),
+	url("./font/FontleroyBrownNF.svg#FontleroyBrownNF") format("svg");
+	font-weight:normal;font-style:normal;
+	}
+	#outer{
+		background-image:url('./img/back.png');
+		background: repeat-x;
+		background: repeat-y;
+		height:1200px;
+		width:1200px;
+		}
+		.foo{
+			color:red;
+		}
+		#nav{
+			position:absolute;
+		background-image:url('./img/retro.png');
+		height:1200px;
+		width:1200px;
+		top: -10px;
+		}
+		table{
+			margin-left: 200px;
+			margin-top: 280px;
+		}
+		.trcolor{
+			background: #efcc61;
+		}
+		.filter{
+		position: absolute;
+		top: 116px;
+		left: 710px;
+		text-decoration:none;
+			font-family:"Fontleroy Brown NF";
+			color:white;
+			font-size:2.2em;
+			padding:5px; 
+		}
+		.na{
+			position:absolute;
+			left: 85px;
+			top: 120px;
+			text-decoration:none;
+			font-family:"Fontleroy Brown NF";
+			color:white;
+			font-size:2.2em;
+			padding:0 110px 0 42px; 
+		}
+		.nb{
+			position:absolute;
+			left: 233px;
+			top: 120px;
+			position: absolute;
+			text-decoration:none;
+			font-family:"Fontleroy Brown NF";
+			font-size:2.2em;
+				color:white;
+		}
+		.nba{
+			position: absolute;
+			top: 120px;
+			right: 130px;
+			text-decoration: none;
+			font-family:"Fontleroy Brown NF";
+			font-size: 2.2em;
+			color: #FFF;
+		}
+		.sign{
+		position: absolute;
+		top: 335px;
+		left: 570px;
+		text-decoration:none;
+		color:#e56b51;
+		font-family:"Fontleroy Brown NF";
+			font-size: 2.2em;
+		}
+		label[for="username"],label[for="password"],label[for="book"],label[for="authors"],label[for="comment"]{
+			color:#677d59;
+			font-family:"Fontleroy Brown NF";
+			font-size: 2.2em;
+		}
+		label[for="authors"]{
+		top: 40px;
+		position: absolute;
+		}
+			.naut{
+			position:absolute;
+			left: 370px;
+			top: 120px;
+			text-decoration:none;
+			font-family:"Fontleroy Brown NF";
+			font-size:2.2em;
+				color:white;
+		}
+		
+
+#indiv{
+	border:solid 5px #687e5a;
+	margin-left:106px;
+	width:980px;
+	height:1200px;
+	margin-top:-110px;
+	position:relative;
+	z-index: -1;
+	background-color:#ece2bc;
+}
+table{
+	position:absolute;
+	border-collapse:collapse;
+	top:50px;
+	width: 800px;
+	border:2px solid #91c959;
+	background:#eddca5;
+}
+table tbody tr{
+border:2px solid white;	
+}	
+#ba{
+top: 170px;
+left: 190px;
+position: absolute;
+height: 1021px;
+}
+#indiv p{
+top: 250px;
+left: 190px;
+position: absolute;
+}
+
+@font-face{
+font-family: OstrichBold;
+src: url('./font/Ostrich Bold.ttf');}
+@font-face{
+font-family: ScienceFair;
+src: url('./font/Science Fair.otf');}
+@font-face{
+font-family: antique_book_cover;
+src: url('./font/antique_book_cover.otf');}
+
+.comfont{
+	color: #304818;
+    font-family: 'times new roman';
+    font-size: 1.4em;
+    padding-left:10px;
+}
+.title a, .cnt,.titletd{
+font-size: 2.2em;
+color: #57503b;
+font-family:"Fontleroy Brown NF";
+text-decoration:none;
+margin-left:10px;
+tbody tr .title{
+	width: 200px;
+}
+}
+.titletd{
+text-align: center;
+}
+.pages{
+	margin-left:380px;
+}
+.pages a{
+	padding:3px;
+	color: #677f4f;
+text-decoration: none;
+font-family:ScienceFair;
+}
+.cnt{
+	font-size: 1.6em;
+}
+.name a{
+	width: 100px;
+font-size: 1.2em;
+color: #677f4f;
+text-decoration: none;
+font-family:ScienceFair;
+}
+.name{
+	width:320px;
+}
+#pic{
+background-image:url("./img/bad.png");
+}
+#newb, #newa{
+	position: absolute;
+	top: 320px;
+	left: 470px;
+}
+#newb input[type="text"],#newa input[type="text"]{
+	background:#EFCC61;
+	color: #57503b;
+	width:190px;
+	height:30px;
+	border:none;
+	border: 2px solid #FFF;
+}
+
+#newb select{
+	width:300px;
+	height:200px;
+	background:#EFCC61;
+	color: #57503b;
+	font-family: ScienceFair;
+	font-size: 0.7em;
+	border: 2px solid #FFF;
+}
+#newb input[type="submit"]{
+top: 300px;
+position: absolute;
+left: 210px;
+background:transparent;
+	border: 1px solid #677f4f;
+	color: #677f4f;
+	border-radius:5px;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.5em;
+	font-weight:bold;
+	cursor: pointer;
+}
+#newa input[type="submit"]{
+	background:transparent;
+	border: 1px solid #677f4f;
+	color: #677f4f;
+	border-radius:5px;
+	color: #677f4f;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.5em;
+	font-weight:bold;
+	cursor: pointer;
+}
+
+#newa input[type="submit"]:hover,#newb input[type="submit"]:hover,.com input[type="submit"]:hover,.reg input[type="submit"]:hover{
+	color:#EFCC61;
+	border: 1px solid #EFCC61;
+}
+#search input[type="submit"]:hover {
+	color:#EFCC61;
+}
+#tablena{
+position: absolute;
+left:220px;
+top: 120px;
+width: 385px;
+border: 2px solid #FFF;
+}
+#author_td{
+	color: #57503B;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.5em;
+	text-align:center;
+}
+#search{
+border:2px solid #677f4f;
+width:244px;
+position: relative;
+top: 15px;
+left: 840px;
+z-index: 3;
+}
+#search input[type="submit"],.com input[type="submit"], .reg input[type="submit"]{
+	background:transparent;
+	border: none;
+	color: #677f4f;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.2em;
+	cursor: pointer;
+}
+.com input[type="submit"]{
+	border:1px solid #677f4f;
+	margin-left: 283px;
+}
+#search input[type="text"]{
+border-radius: 15px;
+background: #FFFFF0;
+border: none;}
+/* Registration */
+.reg{
+	top: 350px;
+position: absolute;
+left: 430px;
+}
+.error{
+	position:absolute;
+	top:260px;
+	left:260px !important;
+	color:red;
+	font-size:2.2em;
+}
+.errorspan{
+	position:absolute;
+	top:200px;
+	left:390px !important;
+	color:red;
+	font-size:2.2em;
+}
+.success{
+	position:absolute;
+	top:268px !important;
+	left:315px !important;
+	color:green;
+	font-size:2.2em;
+}
+.comment{
+	position:absolute;
+	top:50px;
+	height:0px;
+	width:0px;
+}
+.com{
+	position:relative;
+	top: 5px;
+left: 200px;
+width: 800px;
+}
+.comt{
+	position:relative;
+	top:0;
+}
+.comt2{
+	position:relative;
+	margin-top:0px;
+	top:2px;
+}
+.comt2 .trcolor{
+	color:#57503B;
+	font-size:1.2em;
+}
+.com textarea{
+	width:350px;
+	height:100px;
+}
+
+li {
+	color: #F00;
+}
+
+.reg input[type="password"]{
+	margin-left:12px;
+}
+.reg input[type="submit"]{
+	border: 1px solid #677f4f;
+	color: #677f4f;
+	border-radius:5px;
+	font-family:"Fontleroy Brown NF";
+	font-size:2.5em;
+	font-weight:bold;
+	cursor: pointer;
+	margin-left:155px;
+}
